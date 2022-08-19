@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} nav {
+    display: flex;
+    background-color: black;
+    height: 70px;
+    justify-content: right;
+    align-items: center;
+    font-size: 2em;
+}
+nav ul {
+    display: flex;
+} 
+nav ul li{
+    list-style: none;
+    color: white;padding-left: 60px;
+    padding-right: 60px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 60px;
+}body{
+    background-image: url("https://img.wallscloud.net/uploads/cache/1710688786/thor-avengers-end-game-2019-mt-1024x576-MM-90.webp");
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
