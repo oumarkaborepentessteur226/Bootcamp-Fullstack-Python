@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    text-align: center;
+background-color: rgb(234, 207, 110);
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+   
+}
+.chat{
+    display: flex;
+    padding: 20px;
+}
+.chat .image{
+    display: inline;
+}
+.chat .image h4{
+    font-size: 2em; 
+    text-align:center;
+    margin-bottom: 10Px;
+}
+.chat .image img{
+    border-radius: 50%;
+}
+.chat .about{
+    padding: 40px;
+}
+.chat .about h2,.chat .about h3,.chat .about h4{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.lion p{
+   
+    padding: 40px;
+}
+.lion table ,th,td {
+    border: 1px solid black;
+}
+.lion .diff{
+    display: flex;
+    padding-left: 50px ;
+    padding-right: 50px ;
+}
+.lion .diff img{
+    width: 1000px;
+    height: 400Px;
+}
