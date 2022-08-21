@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 610px;
+    box-shadow: 0 0 10px black;
+}
+.container .c .t{
+text-align: center;
+padding: 5px;
+}
+.container .c .t p{
+    padding: 5px;
+}
+.container .c .t button{
+    margin-top: 5px;
+    padding: 15px;
+    border: none
+    ;
+    border-radius: 5px;
+}
+.container .c .i img{
+    width: 280px;
+    height: 400px;
+}
+.container .c .i .i2{
+    background-color: rgb(0, 129, 17);
+    width: 40px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding-left:4px ;
+    padding-top: 10px;
+    position: relative;
+    top: 60px;
+    left: 9px;
+}
+.container .c .i .i1{
+    background-color: rgb(165, 7, 7);
+    width: 40px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding-left:7px ;
+    padding-top: 10px;
+ 
+}
+.container .c .i .i1{
+    position: relative;
+    left: 225px;
+    top: 100px;
+}
+.container #un{
+    position: absolute;
+    top: 0Px;
+    left: 90px;
+}
+.container #deux{
+    position: absolute;
+    top: 0Px;
+    left: 390px;
+}
+.container #trois{
+    position: absolute;
+    top: 0Px;
+    left: 690px;
+}
+
+.container #quatre{
+    position: absolute;
+    top: 0Px;
+    left: 989px;
+}
+

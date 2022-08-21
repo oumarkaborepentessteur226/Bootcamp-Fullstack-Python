@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: -722px;
+    height: 70px;
+   
+    color: white;
+    background-color: black;
+} ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 30PX;
+    width: 100%;
+}
+ ul li{
+list-style: none; 
+margin-top: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+background-color: darkgrey;
+padding: 20PX;
+    width: 100%;
+}
