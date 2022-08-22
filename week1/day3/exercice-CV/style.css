@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.principal{
+    margin: 220px 220px;
+    box-shadow: 0 0 10px black;
+    margin-top: 10px;
+    height: 1190px;
+    
+}
+.principal nav{
+    background-color: rgb(160, 17, 65);
+}
+
+
+@media(max-width:1100px)
+{
+
+    .principal{
+        margin-left: 100px ;
+        box-shadow: 0 0 10px black;
+        margin-top: 10px;
+      
+        width: 890px;
+    }
+}
+
+@media(max-width:992px)
+{
+
+    .principal{
+        font-size: 13px;
+        margin-left: 10px ;
+        box-shadow: 0 0 10px black;
+        margin-top: 10px;
+        height: 2150px;
+        width: 355px;
+    }
+}
