@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container{
+margin-top: 110px;
+margin-left: 260px ;
+margin-right: 260px;
+    height: 380px;
+
+   display: flex;
+}
+.container .un{
+background-color: antiquewhite;
+    width: 1600px;
+
+
+}
+.container.deux {
+
+    width: 50%;
+    margin-right: 200px;    
+} */
+.container{
+    margin-top: 100px;
+    margin-left: 260px ;
+    margin-right: 260px;
+        height: 420px;
+    
+       display: flex;
+}
+.container .un .un2{
+display: flex;
+margin-top: 18px;
+}
+.container .un .un2  p{padding-left: 10px; padding-right: 10px;}
+.container .un .un1 a{
+    padding-left: 120px;
+    text-decoration: none;
+    color: black;
+}
+.container .un button{
+    background-color: rgb(49, 26, 70);
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.container .un{   width: 50%; background-color: rgb(220, 224, 220) ;
+text-align: center;
+display: flex;
+flex-direction:column;
+padding: 40px;
+}
+.container .un input{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+.container .deux{width: 50%; 
+background-image: linear-gradient(to right bottom, rgb(49, 26, 70) ,rgb(127, 104, 148) 90%);
+text-align: center;
+}
+
+.container .deux .deux1{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+
+    width: 330px;
+ 
+    height: 200Px;
+}
+.container .deux .deux1 a{
+    width: 300px; height:100px; border:1px solid white; text-decoration: none; color:white; padding-left:50px; padding-top: 15px; padding-bottom: 15px; padding-right: 50px; margin-top:100px;
+    border-radius: 45%;
+}
