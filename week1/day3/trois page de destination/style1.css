@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+text-align: center;
+}
+.chiffre{
+    display: flex;
+justify-content: center;
+margin-top: 40px;
+margin-bottom: 40px;
+
+}
+.chiffre h2 p{
+    font-size: 10px;
+    padding-right: 20px;
+    margin-top: -0px;
+    color: black;
+}
+.chiffre h2 {
+    text-align: center;
+    font-size: 2.1em;
+color: rgb(0, 89, 255);
+    padding-right: 90px;
+    padding-left:50px ;
+}
+.container2 {
+width: 100%;
+
+display: flex;
+
+justify-content: space-evenly;
+}
+.container2 .un{
+    box-shadow: 0 0 10px black;
+width: 360px;
+height: 270px;
+align-self: flex-end
+}
+.container2 .un .un2{
+     background-color: rgb(255, 0, 200);
+    width: 100%;
+    height: 40%;    color: white;
+    text-align: center;
+
+}
+.container2 .deux .un2{
+    background-color: rgb(29, 170, 40);
+    width: 100%;
+    height: 40%;    color: white;
+    text-align: center;
+}
+.container2 .trois .un2{
+    background-color: rgb(55, 0, 255);
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    color: white;
+}
+.container2 .un .un1 p,.container2 .un .un2 p,.container2 .deux .un1 p,.container2 .deux .un2 p,.container2 .trois .un1 p,.container2 .trois .un2 p{  padding: 30px;}
+.container2 .un .un1,.container2 .deux .un1,.container2 .trois .un1{  
+
+    width: 100%;
+    height: 60%;}
+.container2 .deux{
+    box-shadow: 0 0 10px black;
+position: relative;
+top: 100px;
+width: 360px;
+height: 270px;
+}
+.container2 .trois{
+box-shadow: 0 0 10px black;
+width: 360px;
+height: 270px;
+position: relative;
+top: 50px;
+
+}
