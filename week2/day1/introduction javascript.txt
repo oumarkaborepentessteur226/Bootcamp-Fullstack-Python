@@ -1,0 +1,25 @@
+exercice 1
+
+let nom = "rooogmnooma";
+let num= 12;
+let pay ="bf";
+let global =nom+pay+num;
+console.log(" i live " ,global);
+
+exercice 2
+
+let anneeN=1999;
+let anneeF=2025;
+let age=anneeF-anneeN;
+console.log("jorai " + age + " en " + anneeF);
+
+
+
+exercice 3
+
+let pets =["cat","dog","fish","rabbit","cow"];
+console.log(pets[1]);
+pets.push("horse");
+console.log(pets);
+pets.pop(3);
+console.log(pets);
