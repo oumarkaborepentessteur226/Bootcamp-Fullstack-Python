@@ -1,0 +1,16 @@
+str= input("entrer une phrase:")
+
+if(len(str)>=10):
+   print("chaine est trop long")
+elif(len(str)<10):
+   print("chaine trop court")
+# affichage de la premiere lettre
+print("la premiere lettre est : ",str[0])
+#affichage de la derniere lettre
+print(" la derniere lettre est : "  ,str[-1])
+
+
+#affichage avec une incrementation dune lettre
+for  i  in range (len(str) ):
+
+   print(str[:i+1])

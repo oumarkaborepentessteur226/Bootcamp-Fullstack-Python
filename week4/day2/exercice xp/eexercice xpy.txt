@@ -1,0 +1,188 @@
+exercice 1 
+
+   #creat set
+my_fav_numbers= set()
+
+#add number
+my_fav_numbers.add(5)
+my_fav_numbers.add(15)
+print(" set after two add ",my_fav_numbers)
+my_fav_numbers.remove(15)
+print("set after remove last number ",my_fav_numbers)
+#new set
+friend_fav_numbers= set()
+friend_fav_numbers.add(20)
+friend_fav_numbers.add(25)
+friend_fav_numbers.add(30)
+print("new set ",friend_fav_numbers)
+
+#set concatanate
+#our_fav_numbers=my_fav_numbers |=my_fav_numbers
+our_fav_numbers= my_fav_numbers.union(friend_fav_numbers)
+print("after concatenation ", sorted(our_fav_numbers))
+
+
+exercice 2 
+
+
+tuple=(2,3,4,5,6)
+print(tuple)
+# no  our cannot  add because tuple is not modivioble
+
+
+exercice 3 
+
+#our liste
+basket = [ "Banana","Apples", "Oranges","Blueberries"]
+print("ma liste ",basket)
+
+#remove banana
+basket.pop(0)
+#print(basket)
+#remove Blueberries
+basket.remove("Blueberries")
+#print(basket)
+basket.append("kiwi")
+#print(basket)
+basket.insert(0,"Apples")
+#print(basket)
+
+
+#le nombre de Apples
+s=0
+i=0
+
+for i in range(0,len(basket)):
+    if(basket[i]==basket[0]):
+        s=s+1
+
+#print("il ya ", s, "Apples dans la liste ")
+
+#empty list
+basket.clear()
+
+#last print
+print(basket)
+
+
+exercice 4
+
+1) float est utiliser pour definir un nombre a virgule,int ne correspond qu au entier contrairement a float 
+2)non 
+3)float=[1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]
+
+
+exercice 5
+
+#print 1
+
+for i in range(1, 21):
+    print(i)
+
+#print 2 index paire
+for i in range(0, 21):
+    if (i%2==0):
+        print(i)
+
+exerice 6
+#boucle tan k jentre pas mon nom
+nom=input("tn nom:")
+while(nom!="omar"):
+    nom = input("tn nom:")
+
+
+exercice 7
+
+
+fruit=input("entre tes fruit prefere:")
+print(fruit)
+F=fruit.split(" ")
+print(F)
+
+
+fruitp=input("entre votre fruit prefere:")
+
+if (fruitp in fruit):
+    print("You chose one of your favorite fruits! Enjoy!")
+
+else:
+    print("You chose a new fruit. I hope you enjoy")
+
+
+
+exercice 8
+
+gra = []
+gras=""
+prix = 0
+
+while(gras!="quitter"):
+
+    gras = input("entrez vos different graniture:")
+
+    print("vous avez ajouter", gras, "dans votre pizza qui cout 12.5f" )
+    gra.append(gras)
+    prix += 12.5
+
+    if (gra == "quiiter"):
+        break
+
+
+con=",".join(gra)
+print("voici la liste de vos gratin:", con)
+print("le cout total des graniture est de : ",prix," franc")
+
+
+
+exercice 9
+
+nb=int(input("entrez le nombre total des enfants:"))
+liste=[]
+liste2=[]
+listen=[]
+
+for i in range(0,nb):
+    nom = input("entrez votre nom:")
+    age=int(input("entrez un age:"))
+    liste.append(age)
+    liste.append(nom)
+    listen.append(liste)
+
+    if(age<3):
+        prix1=0
+        liste2.append(prix1)
+
+    elif(3<=age<12):
+        prix2=10
+        liste2.append(prix2)
+
+    elif(age>=12):
+        prix3=15
+        liste2.append(prix3)
+
+    if(age<16):
+
+            liste.remove(nom)
+            liste.remove(age)
+
+print("la somme total a payez est : ",sum(liste2) ," franc")
+
+print("la liste de ce qui peuve regarder le film: ",liste)
+
+
+exercice 10 et 11
+
+sandwich_orders = ["Pastrami sandwich", "Avocado sandwich", "Pastrami sandwich", "Sabih sandwich", "Pastrami sandwich"]
+while("Pastrami sandwich" in sandwich_orders):
+    sandwich_orders.remove("Pastrami sandwich")
+
+
+finished_sandwiches=[]
+finished_sandwiches.append(sandwich_orders)
+print("notre avons plus de Pastrami sandwich")
+print(sandwich_orders)
+print( "vos sandwich préte",finished_sandwiches)
+print(" I made your ",finished_sandwiches[0][0])
+print(" I made your ",finished_sandwiches[0][1])
+
+

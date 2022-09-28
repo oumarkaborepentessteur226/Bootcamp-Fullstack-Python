@@ -1,0 +1,78 @@
+exercice 1
+
+def message():
+    print("nous apprenons le python")
+
+message()
+
+
+
+exercice 2
+
+
+def favorite_book(title):
+    print("mon livre préferer est ", title)
+
+favorite_book("tintin")
+
+
+exercice 3
+
+
+def describe_city(city,contry="Burkina"):
+    print(city,"est la capital du ", contry)
+
+describe_city("Ouagadougou")
+
+
+exercice 4
+
+import random
+
+
+def ale():
+    n=int(input("entrez un chiffre compris entre 0 et 100:"))
+
+    if(n==random.randrange(0,100)):
+        print("reussie")
+        print(n," et ", random.randrange(0,3))
+    else:
+        print("echec")
+        print(n, " et ", random.randrange(0, 3))
+
+
+ale()
+
+
+exercice 5
+
+
+def  make_shirt(taille,str="J'aime Python"):
+    print("-----------------------------------------------------------------------")
+    print("")
+    print("------The size of the shirt is ",taille," and the text is", str,"-------")
+
+    print("")
+    print("------------------------------------------------------------------------")
+make_shirt(12,)
+make_shirt(52,"modia")
+
+
+
+exercice 6
+
+
+
+magician_names = ['Harry Houdini', 'David Blaine', 'Criss Angel']
+z=["the Great","the Great","the Great"]
+
+def  make_great(magician_names):
+    for i in range (0,len(magician_names)):
+
+        print( magician_names[i],"the Great")
+
+
+def show_magicians(magician_names):
+    for i in range (0,len(magician_names)):
+        print(magician_names[i])
+

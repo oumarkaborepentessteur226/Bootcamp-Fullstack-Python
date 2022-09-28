@@ -1,0 +1,20 @@
+DEFIT 1
+
+nb = int(input("entrez un nombre:"))
+taille=int(input("entrer la taille"))
+
+
+for i in range(0,taille):
+    if(nb%7==0):
+        nb+=7
+        print(nb)
+
+
+DEFIT 2
+
+
+str=input("entrez:")
+r=set(str)
+l=list(r)
+f=''.join(l)
+print(f)

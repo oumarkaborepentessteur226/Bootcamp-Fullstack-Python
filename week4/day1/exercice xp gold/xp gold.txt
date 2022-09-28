@@ -1,0 +1,28 @@
+exercice 1
+
+n="hello world"
+m="i love python"
+
+for int in range(0,4 ):
+
+    print(n)
+for int in range(0, 4):
+    print(m)
+
+
+exercice 2
+
+n=int(input("entrer un nombre:"))
+
+if (3<= n <=5):
+    print("spring")
+
+elif(6<= n <=8):
+    print("summer")
+
+elif(9<= n <=11):
+    print("Autumn")
+
+elif (12 >= n >= 2 or n==1):
+    print("winter")
+

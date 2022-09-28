@@ -1,0 +1,71 @@
+exercice 1
+
+keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
+dic=dict(zip(keys,values))
+print(dic)
+
+
+exercice 2
+
+family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
+s=0
+for i in family.values():
+    if(i<3):
+        print(i," ans doit rien payer")
+        i=0
+    elif(i>=3 and i<10):
+        print(i, " ans doit payer 10 f")
+        i=10
+
+    elif(i>=10):
+        print(i, " ans doit payer 15 f")
+        i=15
+    s+=i
+print("le totale a payer est",s)
+nom=input("nom:")
+age=int(input("age"))
+family.update({nom:age})
+
+print(family
+
+
+
+
+
+
+exercice 3
+
+brand={
+    'nom':'zara',
+    'creation_date':1975,
+    'creator_name':'Amancio Ortega Gaona',
+    'type_of_clothes':['men','women','children','home '],
+    'international_competitors':[' Gap','H&M','Benetton'],
+    'number_stores':7000,
+    'major_color':{'france':'blue','spain':'red','us':["pink","green"]}
+}
+print(brand)
+print("les client de zara sont :",brand[ 'type_of_clothes'])
+brand.update({' country_creation':'Spain'})
+
+for i in brand.keys():
+    if(i=='international_competitors'):
+        brand['international_competitors'].append("Desigual")
+
+del brand['creation_date']
+print(brand['international_competitors'][-1])
+print(brand['major_color']['us'][0:2])
+for i in brand:
+    t=len(i)
+print("on a",t, "paire de cle valeur")
+for i in brand.keys():
+    print(i)
+
+more_on_zara={'creation_date': 1975 ,
+'number_stores': 10000}
+brand.update(more_on_zara)
+print(brand)
+print(brand['number_stores'])
+
+print("ce qui devait ce passer")                                                                                                                 

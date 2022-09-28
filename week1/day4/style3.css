@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+
+    display: flex;
+    align-items: center;
+   
+    justify-content:space-between;background-color: rgba(0, 0, 0, 0.747);
+    padding: 20px;
+    color: white;
+}
+nav .nav1{
+    display: flex;
+
+}
+nav .nav1 ul{
+    display: flex;
+}
+nav .nav1 ul li{
+    list-style: none;
+    padding-left: 22px;
+}
+nav .nav2{
+ display: flex;  
+} 
+
+nav .nav2 p{
+     padding-right: 32px;
+}
+header{
+    background-color: aquamarine;
+    margin-left:250px ;
+    margin-right: 250px;
+    text-align: center;
+    margin-top:100px ;
+}
+header .header1 h2{
+  font-size: 2.5em;
+  padding-bottom: 10px;
+}
+
+header .header1 p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header .header1 button{
+    padding: 5px;
+    border-radius:5px ;
+    width: 140px;
+}
+header .header2{
+    display:  flex;
+    justify-content: center;
+margin-top: 30px;
+}
+header .header2 .un,header .header2 .deux,header .header2 .trois{
+    padding: 50px;
+margin-right: 10px;
+margin-left: 10px;
+}
+header .header2 .un{
+    background-color: rgb(240, 229, 229);
+
+}
+header .header2 .deux{
+    background-color: rgb(240, 229, 229);
+}
+header .header2 .trois{
+    background-color: rgb(240, 229, 229);
+}
+header .header2 .un .un1  h1{
+font-size: 3em;
+}

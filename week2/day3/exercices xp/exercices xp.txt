@@ -1,0 +1,7 @@
+let people = ["Greg", "Mary", "Devon", "James"];
+people.shift("Greg");
+console.log(people);
+people.splice(3,1,"jason");
+console.log(people);
+people.push("Oumar");
+console.log(people);

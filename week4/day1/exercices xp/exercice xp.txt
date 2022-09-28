@@ -1,0 +1,80 @@
+exercice 1
+
+str="hello world"
+print(str)
+print(str)
+print(str)
+print(str)
+
+
+exercice 2
+
+print(((99)**3)*8)
+
+
+exercice 3
+
+ 5 < 3:false
+
+ 3 == 3:true
+
+3 == "3":true
+
+"3" > 3:false
+
+"Hello" == "hello":false
+
+
+exercice 4
+
+computer_brand ="lenovo"
+print("I have a ",computer_brand, " computer")
+
+
+exercice 5
+
+name="oumar"
+age=23
+shoe_size=45
+info= "moi ces" , name ," j ai ", age," et je porte du ",shoe_size
+print(info)
+
+
+exercice 6
+
+
+a=12
+b=5
+if(a>b):
+    print("hello world")
+
+exercice 7
+
+a=int(input("entrez un nombre:"))
+
+
+if(a%2==0):
+	print(a, " est un nombre paire")
+else:
+	print(a, " est un nombre impaire")
+	
+
+
+exercice 8
+
+nom=input("entrez un nombre:")
+
+if(nom==ypap):
+	print("on a le meme nom ")
+else
+	print("on a pas le meme nom")
+
+
+exercice 9 
+
+n=int(input("entrer la taille en pouce :"))
+
+if(n>=145):
+	print("assez grand pour rouler")
+else
+	print("doit grandir un peut pour rouler")

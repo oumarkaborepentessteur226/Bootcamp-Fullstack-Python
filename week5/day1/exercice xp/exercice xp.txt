@@ -1,0 +1,46 @@
+exercice 1
+
+class Cat:
+    def __init__(self, cat_name, cat_age):
+        self.name = cat_name
+        self.age = cat_age
+    def chatager(self):
+        if (cat1.age > cat2.age):
+            print(f"The oldest cat is {cat1.name}, and is {cat1.age} years old")
+        elif (cat1.age < cat2.age):
+            print(f"The oldest cat is {cat2.name}, and is {cat2.age} years old")
+
+
+
+cat1=Cat("mimi",12)
+cat2=Cat("titi",22)
+cat1.chatager()
+
+
+exercice 2 
+
+class Dog:
+    def __init__(self,name,height):
+
+        self.name=name
+        self.height=height
+
+    def bark(self):
+        print(f"{self.name} va woof!")
+
+
+    def jump(self):
+        print(f"{self.name} saute {self.height} en cm de haut!")
+
+
+davids_dog=Dog("rex",50)
+davids_dog.bark()
+davids_dog.jump()
+sarahs_dog=Dog("Teacup",20)
+sarahs_dog.bark()
+sarahs_dog.jump()
+
+if(davids_dog.height>sarahs_dog.height):
+    print(f"le plus gros chien est {davids_dog.name}")
+else:
+    print(f"le plus gros chien est {sarahs_dog.name}")
