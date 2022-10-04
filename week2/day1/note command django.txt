@@ -1,0 +1,13 @@
+installation virtual environement: pip install virtualenv
+cree lenvironement:python3 -m venv nomenvironement
+activation environement:my_environnement\Scripts\activate
+desativer : deactivate
+
+
+
+
+instalattion django::pip install django
+version:python -m django --version
+cree un projet:django-admin startproject mysite
+demarre server:python manage.py runserver
+cree une app: python manage.py startapp polls
