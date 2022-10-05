@@ -45,18 +45,16 @@ ale()
 
 
 exercice 5
-
-
-def  make_shirt(taille,str="J'aime Python"):
-    print("-----------------------------------------------------------------------")
-    print("")
-    print("------The size of the shirt is ",taille," and the text is", str,"-------")
-
-    print("")
-    print("------------------------------------------------------------------------")
-make_shirt(12,)
-make_shirt(52,"modia")
-
+def make_shirt(size = "XXL",text = "I love Python") :
+    print(f"The size of the shirt is {size} and the text is {text}")
+#5
+make_shirt()
+#6
+make_shirt("M")
+#7
+make_shirt("L","SSS")
+#8
+make_shirt(size = "S",text = "SSS")
 
 
 exercice 6
@@ -75,4 +73,40 @@ def  make_great(magician_names):
 def show_magicians(magician_names):
     for i in range (0,len(magician_names)):
         print(magician_names[i])
+
+Exercice 7 : Conseils De Température
+
+def get_random_temp(saison) :
+    import random
+    if saison.lower() == "hiver" :
+        return random.randint(-10, 16)
+    elif saison.lower() == "autonne" :
+        return random.randint(10, 25)
+    elif saison.lower() == "printemps" :
+        return random.randint(0, 15)
+    elif saison.lower() == "été" :
+        return random.randint(20, 40)
+    else :
+        print('Error, default = 0')
+        return 0
+
+def main() :
+    temp = get_random_temp(input("Saisissez une saison : "))
+    print(f"The temperature right now is {temp} degrees Celsius")
+    if temp < 0 :
+        print("Brrr, that’s freezing! Wear some extra layers today")
+    elif temp < 16 :
+        print("Quite chilly! Don’t forget your coat")
+    elif temp <= 23 :
+        print("The temperature is ideal")
+    elif temp < 32 :
+        print("You can go to the beach")
+    elif temp < 40 :
+        print("It's very hot")
+    else:
+        print("Dangerous")
+
+main()
+
+
 
