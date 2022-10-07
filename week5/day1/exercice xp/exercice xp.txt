@@ -44,3 +44,50 @@ if(davids_dog.height>sarahs_dog.height):
     print(f"le plus gros chien est {davids_dog.name}")
 else:
     print(f"le plus gros chien est {sarahs_dog.name}")
+
+
+exercice 3
+
+class Song:
+    def __init__(self, lyrics):
+        self.lyrics=lyrics
+
+    def sing_me_a_song(self):
+        list(map(lambda x : print(x),self.lyrics))
+
+
+stairway= Song(["There’s a lady who's sure","all that glitters is gold", "and she’s buying a stairway to heaven"])
+
+stairway.sing_me_a_song()
+
+
+class Zoo:
+
+    def __init__(self,name,animals):
+
+
+        self.animals=animals
+        self.name=name
+
+
+    def add_animal(self,new_animal):
+        self.animals.append(new_animal)
+
+
+    def get_animal(self):
+        print(self.animals)
+
+    def sell_animal(self,animal_sold):
+        self.animals.remove(animal_sold)
+
+    def sort_animal(self):
+        self.animals.sort()
+
+a=Zoo("fasoparck",["chat",'pingoin',"aligatore","poisson"])
+a.add_animal("lion")
+a.get_animal()
+a.sell_animal("lion")
+a.get_animal()
+a.sort_animal()
+a.get_animal()
+
