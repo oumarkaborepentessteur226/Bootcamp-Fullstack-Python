@@ -1,0 +1,21 @@
+class Phone:
+    def __init__(self,phone_number):
+        self.phone_number=phone_number
+        self.call_history=[]
+        self.messages={}
+
+    def call(self,othe_phone):
+        print(f"{othe_phone} a appeler")
+        self.call_history.append(othe_phone)
+
+    def show_call_history(self):
+        print( self.call_history)
+
+    def send_message(self,m1,m2,othe_phone):
+        self.messages.update({othe_phone:m1,self.phone_number:m2})
+        print(self.messages)
+
+p=Phone(61019793)
+p.call(64869280)
+p.call_history
+p.send_message("tn modia","cimer modia",64869280)

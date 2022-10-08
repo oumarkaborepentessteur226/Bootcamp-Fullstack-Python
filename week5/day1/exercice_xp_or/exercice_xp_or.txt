@@ -1,0 +1,47 @@
+exercice 1
+
+
+class Circle:
+    def __init__(self,rayon=1):
+        self.rayon=rayon
+
+    def perimetre(self):
+        p=3.14*2*self.rayon
+        print(f"perimetre du cercle est {p}")
+
+    def aire(self):
+        a=3.14*(self.rayon)**2
+        print(f"aire du cercle est {a}")
+
+circle=Circle(2)
+circle.perimetre()
+circle.aire()
+
+exercice 2
+
+class MyList:
+    def __init__(self):
+        self.list=[]
+
+
+    def add(self,l):
+        self.list.append(l)
+        print(f" ajout {self.list}")
+
+
+    def inverse(self):
+        self.list.reverse()
+        print(f" reverse {self.list}")
+
+    def trier(self):
+        self.list.sort()
+        print(f" trie {self.list}")
+
+
+l=MyList()
+l.add("a")
+l.add("b")
+l.add("c")
+l.add("d")
+l.inverse()
+l.trier()
