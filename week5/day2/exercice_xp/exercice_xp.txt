@@ -1,0 +1,74 @@
+exercice 1 
+
+
+class Pets():
+    def __init__(self, animals):
+        self.animals = animals
+
+    def walk(self):
+        for animal in self.animals:
+            print(animal.walk())
+
+class Cat():
+    is_lazy = True
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def walk(self):
+        return f'{self.name} is just walking around'
+
+class Bengal(Cat):
+    def sing(self, sounds):
+        return f'{sounds}'
+
+class Chartreux(Cat):
+    def sing(self, sounds):
+        return f'{sounds}'
+
+class siamese(Cat):
+    def sing(self, sounds):
+        return f'{sounds}'
+
+all_cats=[]
+all_cats.append(Bengal("ach",2))
+all_cats.append(Chartreux("ach2",22))
+all_cats.append(siamese("ach3",12))
+sara_pets=Pets("carnivore")
+u=Pets(all_cats)
+u.walk()
+
+
+exercice 2
+
+
+class Dog:
+    def __init__(self,name, age, weight):
+        self.name=name
+        self.age=age
+        self.weight=weight
+
+    def bark(self):
+        print(f"{self.name} aboie")
+
+    def run_speed(self):
+        print(f"la vitesse du chien est {self.weight/self.age*10}")
+class other_dog(Dog):
+    def fight(self):
+        if(un.weight/un.age*10 > deux.weight/deux.age*10):
+            print(f"le chien qui a gagner le comba est {un.name}")
+
+        else:
+            print(f"le chien qui a gagner le comba est {deux.name}")
+
+
+un=Dog("boby1",2,7)
+deux=other_dog("boby2",2,8)
+
+
+un.bark()
+un.run_speed()
+deux.bark()
+deux.run_speed()
+deux.fight()
