@@ -1,0 +1,20 @@
+{% extends "pdf/base.html" %}
+
+{% block content %}
+<div class="formulaire">
+<h1 class="text-center m-3" style="margin-bottom:80px;"> Telecharger votre cv</h1>
+
+    {% for element in profile %}
+    <div class="row text-center ">
+        <div class="col-md-6">
+            <h4>{{ element.name }} {{ element.username }}</h4>
+        </div>
+        <div class="col-md-6"> 
+            <a href="{{ element.id }}" class="btn btn-warning ">Telecharger</a>
+        </div>
+    </div>
+    <br>
+{% endfor %}
+</div>
+
+{% endblock %}

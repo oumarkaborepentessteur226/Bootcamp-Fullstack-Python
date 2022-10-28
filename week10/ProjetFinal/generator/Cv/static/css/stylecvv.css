@@ -1,0 +1,59 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+ background-image: linear-gradient(to top right,blue,rgb(3, 5, 63))
+
+}
+.formulaire{
+border-radius:18px;
+text-align:center;
+padding-bottom:15px;
+margin-left:200px;
+margin-right:200px;
+margin-top:30px;
+margin-bottom:100px;
+background-color:rgb(204, 204, 204);
+}
+.c2{
+
+padding:5px;
+width:220px;
+height:50px;
+border-radius:10px;
+margin-bottom:10px;
+outline: none;
+border:1px solid white
+}
+.c1{
+padding:5px;
+width:320px;
+height:80px;
+border-radius:10px;
+margin-bottom:10px;
+outline: none;
+border:1px solid white
+}
+
+.formulaire .p {
+
+border-radius:18px;
+padding:20px;
+background-color:black;
+}
+.formulaire .p h1{
+color:white;}
+
+.formulaire form button{
+width:150px;
+height:50px;
+border-radius:18px;
+border:none;
+background-color:blue;
+color:white;
+font-size:18px;
+margin-bottom:10px;
+}
+
+

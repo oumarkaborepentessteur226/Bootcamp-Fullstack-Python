@@ -1,0 +1,23 @@
+
+
+{% extends 'pdf/base.html' %}
+
+{% block content %}
+
+
+<div class="formulaire">
+<div class="p">
+        <h1>Remplisser le formulaire</h1>
+
+    </div>
+    <form method="POST" action="{% url 'index' %}" enctype="multipart/form-data" >
+    {% csrf_token %}
+    {{ form.as_p }}
+        <button type="submit" class="btn btn-primary"> Creer </button>
+
+    </form>
+
+</div>
+
+
+{% endblock %}

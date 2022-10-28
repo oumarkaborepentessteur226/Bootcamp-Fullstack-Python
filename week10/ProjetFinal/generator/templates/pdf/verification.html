@@ -1,0 +1,48 @@
+{% extends "pdf/base.html" %}
+
+{% block content %}
+<div class="formulaire">
+<div class="f" >
+    <div class="p">
+        <h1>Verifiez que vos donnees sont corrects</h1>
+    </div>
+ <img src="{{ image.url }}" alt="Smiley face" width="250" height="250" style="border-radius:100%">
+            <h2>NOM COMPLET:</h2>
+    <p style="color:white; font-weight:700;font-size:25px; text-shadow:0 0 10px black; box-shadow: 0 0 10px black; margin-top:8px;margin-bottom:38px;">{{ username }} {{ name }}</p>
+
+<h2>CONTACTS:</h2>
+<p style="color:white; font-weight:700;font-size:25px; text-shadow:0 0 10px black; box-shadow: 0 0 10px black; margin-top:8px;margin-bottom:38px;">{{ email }} <br> {{ phone }} <br> {{ address }}</p>
+<h2>COMPENTENCES:</h2>
+
+<p style="color:white; font-weight:700;font-size:25px; text-shadow:0 0 10px black; box-shadow: 0 0 10px black;margin-top:8px;margin-bottom:38px;">{{ competance }}</p>
+
+<h2 > LANGUE</h2>
+<p style="color:white; font-weight:700;font-size:25px; text-shadow:0 0 10px black; box-shadow: 0 0 10px black;margin-top:8px;margin-bottom:38px;">{{ langue }} </p>
+<!--
+<h2> INTERETS</h2>
+<p style="color:white; font-weight:700;font-size:25px; text-shadow:0 0 10px black; box-shadow: 0 0 10px black;margin-top:8px;margin-bottom:38px;">{{ interet }} </p>
+
+<h2> OBJECTIS</h2>
+<p style="color:white; font-weight:700;font-size:25px; text-shadow:0 0 10px black; box-shadow: 0 0 10px black;margin-top:8px;margin-bottom:38px;">{{ objectif }} </p>
+-->
+<h2> EXPERIENCES</h2>
+<p style="color:white; font-weight:700;font-size:25px; text-shadow:0 0 10px black; box-shadow: 0 0 10px black;margin-top:8px;margin-bottom:38px;">{{ experience }}</p>
+
+<h2> EDUCATIONS</h2>
+<p style="color:white; font-weight:700;font-size:25px; text-shadow:0 0 10px black; box-shadow: 0 0 10px black;margin-top:8px;margin-bottom:38px;">{{ education }}</p>
+
+<h2> PROJECT</h2>
+<p style="color:white; font-weight:700;font-size:25px; text-shadow:0 0 10px black; box-shadow: 0 0 10px black;margin-top:8px;margin-bottom:38px;">{{ project }}</p>
+
+
+
+
+<nav >
+    <small >generator {% now "Y-m-d" %}</small>
+</nav>
+<br>
+<a href="download"  style="font-size:20px; color:white;  background-color:blue; padding:10px; margin-bottom:10px;
+border-radius:10px;">Clickez ici pour telecharger</a></div>
+
+</div>
+{% endblock %}

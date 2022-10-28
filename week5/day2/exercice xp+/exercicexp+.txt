@@ -1,0 +1,46 @@
+exercice 1
+
+class Family():
+    def __init__(self,nom_de_famille,membres):
+        self.membres=membres
+        self.nom_de_famille=nom_de_famille
+    def born(self,name,age,gender,is_child):
+
+        self.membres.append({'name':name,
+                             'age':age,
+                             'gender':gender,
+                             'is_child':is_child})
+        print(f"felicitation pour ce nouveau bebe{self.membres[2]}")
+    def  is_18(self,name1):
+        if(name1 in self.membres[0]['name']):
+            if(self.membres[0]['age'] > 18):
+                print("true")
+
+            else:
+                print("false")
+
+        if (name1 in self.membres[1]['name']):
+            if (self.membres[1]['age'] > 18):
+                print("true")
+
+            else:
+                print("false")
+
+        if (name1 in self.membres[2]['name']):
+            if (self.membres[2]['age'] > 18):
+                print("true")
+
+            else:
+                print("false")
+
+    def family_presentation(self):
+        print(f"{self.nom_de_famille} {self.membres[0]['name']}")
+        print(f"{self.nom_de_famille} {self.membres[1]['name']}")
+        print(f"{self.nom_de_famille} {self.membres[2]['name']}")
+o=Family('kabore',[
+    {'name':'Michael','age':35,'gender':'Male','is_child':False},
+    {'name':'Sarah','age':32,'gender':'Female','is_child':False}
+])
+o.born('omar',5,'male',True)
+o.is_18("omar")
+o.family_presentation()

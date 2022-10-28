@@ -1,0 +1,9 @@
+header .container{
+box-shadow:0 0 10px blue;
+position:relative;
+padding:30px;
+border-radius:15px;
+background-color:blue;
+
+
+}

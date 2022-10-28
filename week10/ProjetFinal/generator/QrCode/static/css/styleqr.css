@@ -1,0 +1,115 @@
+*{
+magin:0px;
+padding:-110px;
+box-sizing: border-box !important;
+}
+body{
+
+}
+.containerr{
+height:290px;
+}
+.containerr img {
+
+width: 1250px;
+height:570px;
+}
+.containerr .nav{
+position:relative;
+display:flex;
+justify-content:space-around;
+top:-600px;
+margin-right:200px;
+}
+.containerr .nav ul{
+display:flex;
+
+padding:30px;
+}
+.containerr .nav ul li {
+display:flex;
+liste-style:none;
+justify-content: center;
+padding:05px;
+background-color:white;
+border-radius:20px;
+}
+.containerr .nav ul li:hover{
+
+background:#143f9cc0;
+
+}
+.containerr .nav ul li a:hover{color:white;
+}
+
+.containerr .nav ul li a{
+padding:10px;
+text-decoration:none;
+
+color:black;
+font-size:30px;}
+
+.container{
+
+position:relative;
+top:-646px;
+max-width:700px;
+width:100%;
+margin-left:20%;
+padding:20px;
+border-radius:10px;
+justify-content:center;
+align-items:center;
+}
+
+
+.user{
+height:45px;
+width:100%;
+}
+.containerr .a{
+position:relative;
+top:-875px;
+padding:15px;
+background:white;
+width:100px;
+border-top-right-radius:  35px;
+border-bottom-right-radius:  35px;
+}
+
+.containerr .a a{
+text-decoration:none;
+color:black;
+
+font-weight: 700;
+  font-size: 24px;
+}
+.containerr .a:hover{
+background:#1a61d3;
+}
+.containerr .a a:hover{
+color:white;
+
+}
+
+.containerr .deux{
+display:flex;
+
+}
+.containerr .deux .d img {
+width:280px;
+height:260px;
+margin-left:200px;}
+
+.containerr .deux u{
+padding-right:50px;
+
+width:100px;
+}
+.containerr .deux .d h2{
+margin-left:200px;
+}
+
+.user button:hover{background-color:#1a61d3;
+color:white;
+}

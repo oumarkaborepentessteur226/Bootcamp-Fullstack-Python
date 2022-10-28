@@ -1,0 +1,46 @@
+"""
+# Address
+mailto:someone@yoursite.com
+
+
+# NYC Directory assistance
+tel:+12125551212
+
+#carte 
+BIZCARD:N:Sean;
+X:Owen;
+T:Software Engineer;
+C:Google;
+A:76 9th Avenue, New York, NY 10011;
+B:+12125551212;
+E:srowen@google.com;;
+
+#appeler et ajouter
+BIZCARD:NB:+12125551212;
+BIZCARD:NB:E:srowen@google.com
+
+
+# Send an SMS/MMS to a number
+sms:+18005551212
+
+# Send an SMS/MMS to a number with pre-filled message.
+sms:+18005551212:This%20is%20my%20text%20ton modia.
+
+#calandar
+BEGIN:VEVENT
+SUMMARY:Summer+Vacation!
+DTSTART:20180601T070000Z
+DTEND:20180831T070000Z
+END:VEVENT
+
+
+#wiffi
+WIFI:T:WPA;
+S:mynetwork;
+P:mypass;;
+
+#googleplay
+market://details?id=org.example.foo
+
+
+"""
