@@ -125,9 +125,9 @@ def view_card(request, pk =None):
         return render(request, 'view_id.html', context)
 
 
-def view_scanner(request):
-    context = context_data()
-    return render(request, 'scanner.html', context)
+#def view_scanner(request):
+    #context = context_data()
+    #return render(request, 'scanner.html', context)
 
 
 

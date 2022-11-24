@@ -8,7 +8,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('qr_code/', include('qr_code.urls', namespace="qr_code")),
+    #path('qr_code/', include('qr_code.urls', namespace="qr_code")),
     #path('',views.home),
     #path('login',views.login_page,name='login-page'),
     #path('user_login',views.login_user,name='login-user'),

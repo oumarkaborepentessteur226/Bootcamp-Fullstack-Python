@@ -8,8 +8,8 @@ from QrCode.views import demo,tel,sms,email,wiffi,accueil
 from django.conf import settings
 
 from accueil.views import home
-from eqrApp.views import employee_list, manage_employee, save_employee, view_card, view_details, view_scanner, \
-    delete_employee, homee
+from eqrApp.views import employee_list, manage_employee, save_employee,homee, view_card, view_details,\
+    delete_employee
 
 urlpatterns = [
 
@@ -25,7 +25,7 @@ path('base', home, name='base'),
     path('verification', verification, name="verification"),
     path('<int:id>', generer, name="generer"),
     path('download', download, name="download"),
-path('qr_code/', include('qr_code.urls', namespace="qr_code")),
+#path('qr_code/', include('qr_code.urls', namespace="qr_code")),
     #path('',views.home),
     #path('login',views.login_page,name='login-page'),
     #path('user_login',views.login_user,name='login-user'),
@@ -38,7 +38,7 @@ path('qr_code/', include('qr_code.urls', namespace="qr_code")),
     path('view_card/<int:pk>',view_card,name='view-card'),
     path('view_details/<str:code>',view_details,name='view-details'),
     path('view_details',view_details,name='scanned-code'),
-    path('scanner',view_scanner,name='view-scanner'),
+    #path('scanner',view_scanner,name='view-scanner'),
     path('delete_employee/<int:pk>',delete_employee,name='delete-employee'),
 ]
 if settings.DEBUG:

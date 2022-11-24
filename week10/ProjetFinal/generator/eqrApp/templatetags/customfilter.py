@@ -1,6 +1,6 @@
 from atexit import register
 from django import template
-from cryptography.fernet import Fernet
+#from cryptography.fernet import Fernet
 from django.conf import settings
 
 
